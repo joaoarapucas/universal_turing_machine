@@ -11,3 +11,11 @@ cadeia de entrada, e simula o comportamento da máquina descrita.
 - **a\*b\*** — regular, aceita cadeias com zero ou mais `a`s seguidos de zero ou mais `b`s
 - **aⁿbⁿ** — livre de contexto, simulada via autômato com pilha codificado na MT
 - **aⁿbⁿcⁿ** — sensível ao contexto, usa varreduras sucessivas marcando um triplo (a,b,c) por passagem
+
+## Como executar
+
+Com Ruby instalado, basta rodar na pasta `src`:
+
+```bash
+ruby main.rb
+```
